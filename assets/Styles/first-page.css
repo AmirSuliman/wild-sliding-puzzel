@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(234, 234, 241);
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Kaushan Script", cursive;
+  color: rgb(44, 49, 142);
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 2px;
+  word-spacing: 20px;
+  text-align: center;
+  line-height: 48px;
+  margin: 40px 10px;
+}
+
+.key-words-pragraph {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  color:  rgb(196, 51, 41);
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.text-container > :not(.key-words-pragraph) {
+  display: inline;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.image-plus-nav {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.image-container {
+  margin: 20px 0 10px 0;
+  width: 100%;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.image-container img {
+  border: 1px solid #000;
+  box-shadow: rgb(128, 128, 128) 10px 10px 15px 0px;
+  width: 35%;
+}
+
+.image1 {
+  transform: rotate(15deg);
+}
+
+.image2 {
+  transform: rotate(-35deg);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px 0;
+  padding-right: 130px;
+}
+
+nav button {
+  color: #fff;
+  background-color: rgb(196, 51, 41);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+nav button:hover {
+  background-color: white;
+  color: rgb(196, 51, 41);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  background-color: rgb(173, 185, 219);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.instruction {
+  display: none;
+  background-color: rgb(226, 232, 255);
+  position: fixed;
+  top: 30px;
+  right: 60px;
+  font-family: "Lato",sans-serif;
+  font-size: 20px;
+  width: 450px;
+  border: 5px solid black;
+  overflow: auto;
+  height: 80vh;
+}
+
+.instruction h2 {
+  color: rgb(44, 49, 142);
+  text-align: center;
+  font-family: "Lato",sans-serif;
+  font-size: 30px;
+}
+
+.instruction h3 {
+  color: rgb(196, 51, 41);
+  padding-left: 30px;
+}
+
+.list1 {
+  list-style-type: circle;
+  display: list-item;
+}
+.list2 {
+  list-style-type: square;
+  line-height: 1.5rem;
+  }
+
+  .instruction li {
+    margin-bottom: 15px;
+    padding-right: 15px;
+  }
+
+  .toggle-sign {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    right: 20px;
+    top: -5px;
+    cursor: pointer;
+  }

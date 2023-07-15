@@ -8,28 +8,86 @@
   <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./assets/Scripts/first-page.css">
+  <link rel="stylesheet" href="./assets/Styles/first-page.css">
 
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato&display=swap" rel="stylesheet">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Wild Sliding Puzzles</title>
 </head>
 <body>
-  <h1>Wild Sliding Puzzles</h1>
-  <div class="text-container">
-    <p class="ke-words-pragraph">
-      <span>Beautiful</span>
-      <span>Extraordinary</span>
-      <span>Dramatic</span>
+  <main>
+    <h1>Wild Sliding Puzzles</h1>
+    <div class="text-container">
+      <p class="key-words-pragraph">
+        <span>Beautiful</span>
+        <span>Extraordinary</span>
+        <span>Dramatic</span>
+      </p>
+      <p>
+        The British Isles' nature is amazing. It's also our life support system. But our precious wildlife and wild places are on the brink.
+      </p>
+      <p>
+        Can you unscramble our 'Wild Sliding Puzzles' to learn more about nature in the British Isles?
+      </p>
+    </div>
+
+    <!-- Container for the images and navigation -->
+    <div class="image-plus-nav">
+      <!-- images container -->
+      <div class="image-container">
+        <img src="./assets/images/landing-page-1.webp" alt="view of the puffin puzzle with the pictures all scrambled" class="image1">
+        <img src="./assets/images/landing-page-2.webp" alt="view of the bee puzzle with the pictures all scrambled" class="image2">
+      </div>
+
+      <!-- navigations -->
+      <nav>
+        <button class="play">Play</button>
+        <button class="instructions">Instructions</button>
+      </nav>
+    </div>
+
+    <!-- instruction -->
+    <div class="instruction">
+      <p class="toggle-sign">X</p>
+      <h2>Instructions</h2>
+      <ul class="list1">
+        <li>Click on a tile to slide it into the empty space</li>
+        <li>Only tiles next to an empty space can be moved</li>
+        <li>Slide the tiles around so that one by one they slot into their correct position (this will take a number of moves)</li>
+        <li>When correctly placed the tiles will form an image</li>
+        <li>Have a go, play around and see if you can find a way to get all the tiles into the correct position</li>
+      </ul>
+      <h3>If you are feeling stuck:</h3>
+      <ul class="list2">
+        <li>See what the completed puzzle looks like by clicking the <b>Sneaky Peek</b> button</li>
+        <li>Or get some tips by clicking the <b>Tips</b> button</li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Created by Georgina Carlisle for educational purposes only  &copy;2023 &nbsp;
+      <span>
+        <a href="https://github.com/AmirSuliman" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>&nbsp;
+        <a href="https://www.linkedin.com/in/amirsuliman/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </span>&nbsp;
+      and inspired by Wild Isles&nbsp;
+      <span>
+        <a href="https://www.saveourwildisles.org.uk/" target="_blank">
+          <i class="fa-solid fa-paw"></i>
+        </a>
+      </span>
     </p>
-    <p>
-      The British Isles' nature is amazing. It's also our life support system. But our precious wildlife and wild places are on the brink.
-    </p>
-    <p>
-      Can you unscramble our 'Wild Sliding Puzzles' to learn more about nature in the British Isles?
-    </p>
-  </div>
+  </footer>
 </body>
 </html>
