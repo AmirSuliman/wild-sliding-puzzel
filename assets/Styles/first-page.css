@@ -86,6 +86,7 @@ nav button {
 nav button:hover {
   background-color: white;
   color: rgb(196, 51, 41);
+  cursor: pointer;
 }
 
 footer a {
@@ -117,6 +118,10 @@ footer {
   border: 5px solid black;
   overflow: auto;
   height: 80vh;
+}
+
+.show {
+  display: block;
 }
 
 .instruction h2 {
