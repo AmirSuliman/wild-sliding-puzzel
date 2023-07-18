@@ -25,13 +25,13 @@ h1 {
   justify-content: space-between;
   font-size: 30px;
   font-family: "Lato", sans-serif;
-  color:  rgb(196, 51, 41);
+  color: rgb(196, 51, 41);
   width: 90%;
   margin: 0 auto;
   margin-bottom: 12px;
 }
 
-.text-container > :not(.key-words-pragraph) {
+.text-container> :not(.key-words-pragraph) {
   display: inline;
   font-family: "Lato", sans-serif;
   font-size: 20px;
@@ -81,9 +81,21 @@ nav button {
   padding: 10px;
   font-family: "Lato", sans-serif;
   font-size: 24px;
+  word-break: unset;
+}
+
+.play a {
+  text-decoration: none;
+  color: white;
 }
 
 nav button:hover {
+  background-color: white;
+  color: rgb(196, 51, 41);
+  cursor: pointer;
+}
+
+.play:hover a {
   background-color: white;
   color: rgb(196, 51, 41);
   cursor: pointer;
@@ -112,7 +124,7 @@ footer {
   position: fixed;
   top: 30px;
   right: 60px;
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 20px;
   width: 450px;
   border: 5px solid black;
@@ -127,7 +139,7 @@ footer {
 .instruction h2 {
   color: rgb(44, 49, 142);
   text-align: center;
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 30px;
 }
 
@@ -140,22 +152,23 @@ footer {
   list-style-type: circle;
   display: list-item;
 }
+
 .list2 {
   list-style-type: square;
   line-height: 1.5rem;
-  }
+}
 
-  .instruction li {
-    margin-bottom: 15px;
-    padding-right: 15px;
-  }
+.instruction li {
+  margin-bottom: 15px;
+  padding-right: 15px;
+}
 
-  .toggle-sign {
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    position: absolute;
-    right: 20px;
-    top: -5px;
-    cursor: pointer;
-  }
+.toggle-sign {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 20px;
+  top: -5px;
+  cursor: pointer;
+}
